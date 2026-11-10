@@ -6,7 +6,7 @@ metadata:
   labels:
     app: ml-predictor
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: ml-predictor
